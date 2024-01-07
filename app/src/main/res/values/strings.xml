@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CleanCare</string>
+
+    <string name="lbl_cleaner">Cleaner</string>
+    <string name="lbl_menu">Menu</string>
+    <string name="lbl_home_cleaning">Home Cleaning</string>
+    <string name="lbl_custom">Custom</string>
+    <string name="lbl_make_your_own_package">Make your own package</string>
+
+    <string name="symbol_inr">\u20B9</string>
+</resources>
