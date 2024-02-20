@@ -13,7 +13,6 @@ Let's start with the project structure:
 `interface RetrofitService {
     @GET("products/1")
     suspend fun getAllMovies() : Response<ResponseBody>
-
 }`
 
 3. Repository (MainRepository):is responsible for interacting with the API service and fetching user data.
@@ -35,7 +34,6 @@ Let's start with the project structure:
 6. ViewModel Factory (UserViewModelFactory):
 
 `class ContextViewModelFactory(private val context: Context, private val repository: MainRepository) : ViewModelProvider.Factory {
-
 }`
 
 The `MainActivity` observes changes in the users `LiveData` and updates the UI accordingly.
